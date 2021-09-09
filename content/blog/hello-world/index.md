@@ -1,8 +1,9 @@
 ---
 title: Hello World 1
-date: "2021-08-09"
+date: "2021-09-09" 
 description: "Hello World 2"
 ---
+<!-- date: año-mes-día -->
 
 This is my first post on my new fake blog! How exciting!
 
