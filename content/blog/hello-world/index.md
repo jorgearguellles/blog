@@ -1,7 +1,7 @@
 ---
-title: Hello World 1
+title: Hello World 
 date: "2021-09-08" 
-description: "Hello World 2"
+description: "This is my first post on my new blog! How exciting!"
 ---
 <!-- date: año-mes-día -->
 
