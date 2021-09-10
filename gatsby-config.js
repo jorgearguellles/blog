@@ -3,7 +3,7 @@ module.exports = {
     title: `Jorge Arias Argüelles`,
     author: {
       name: `Jorge Arias Argüelles`,
-      summary: `who lives in Cali, Colombia learning Web Developing.`,
+      summary: `quien vive en Cali, Colombia aprendiendo Desarrollo Web.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
