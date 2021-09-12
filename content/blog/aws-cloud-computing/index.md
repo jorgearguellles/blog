@@ -1,7 +1,7 @@
 ---
 title: AWS - Cloud Computing
 date: "2021-09-12" 
-description: "Apuntes sobre: Qué es el Cloud Computing, las 6 ventajas del Cloud Computing & los 3 tipos de Cloud Computing"
+description: "Apuntes sobre la clase 1: Qué es el Cloud Computing, las 6 ventajas del Cloud Computing & los 3 tipos de Cloud Computing"
 ---
 <!-- date: año-mes-día -->
 
