@@ -1,5 +1,5 @@
 ---
-title: La terminal 
+title: Comandos básicos de la Terminal
 date: "2021-09-11" 
 description: "Apuntos sobre los comandos de la Terminal"
 ---
