@@ -3,7 +3,7 @@ module.exports = {
     title: `Jorge Arias Argüelles`,
     author: {
       name: `Jorge Arias Argüelles`,
-      summary: `quien vive en Colombia y desarrolla grandes proyectos.`,
+      summary: `quien vive en Colombia y cree en la Ontología del lenguaje y en la conolización de los bits.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
