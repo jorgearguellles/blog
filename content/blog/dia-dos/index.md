@@ -1,9 +1,13 @@
 ---
-title: Día Uno
+title: Día Dos
 date: "2021-09-15" 
 description: "Pincipio dos: Trabajo vs Esfuerzo"
 ---
 <!-- date: año-mes-día -->
+
+Foto desde donde escribo hoy: 
+<img src="./1.jpeg" alt="Día uno" style="border-radius:10px; margin:30px 0;">
+
 
 Hoy ha sido un día donde trabaje y me esforce.
 
@@ -16,5 +20,5 @@ Ese "Algo" puede ser cualquier cosa, desde una idea hasta una ida al baño.
 **¿Cuál es la diferencia entre el trabajo y el esfuerzo?...**
 Con el trabajo se logra avanzar, mientras que con el esfuerzo se logra cansar.
 
-mal usan recursos hasta llegar al cansancio y la frustración.
+
 
