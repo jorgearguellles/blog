@@ -1,7 +1,7 @@
 ---
 title: Día Dos
 date: "2021-09-15" 
-description: "Pincipio dos: Trabajo vs Esfuerzo"
+description: "Segundo Principio: Trabajo vs Esfuerzo"
 ---
 <!-- date: año-mes-día -->
 
