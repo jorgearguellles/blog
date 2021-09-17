@@ -6,7 +6,7 @@ description: "Segundo Principio: Trabajo vs Esfuerzo"
 <!-- date: año-mes-día -->
 
 Foto desde donde escribo hoy: 
-<img src="./1.jpeg" alt="Día uno" style="border-radius:10px; margin:30px 0;">
+<img src="./1.jpeg" alt="Día Dos" style="border-radius:10px; margin:30px 0;">
 
 
 Hoy ha sido un día donde trabaje y me esforce.
