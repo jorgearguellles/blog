@@ -1,7 +1,7 @@
 ---
 title: Día Ocho
 date: "2021-09-21" 
-description: "Sguir avanzando, paso a paso, ladrillo a ladrillo, salto cuántico a salto cuántico"
+description: "Seguir avanzando, paso a paso, ladrillo a ladrillo, salto cuántico a salto cuántico"
 ---
 <!-- date: año-mes-día -->
 
