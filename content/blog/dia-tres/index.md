@@ -1,7 +1,7 @@
 ---
 title: Día Tres
 date: "2021-09-16" 
-description: "..."
+description: "El valor de avanzar"
 ---
 <!-- date: año-mes-día -->
 

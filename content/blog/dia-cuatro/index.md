@@ -1,5 +1,5 @@
 ---
-title: Día Tres
+title: Día Cuatro
 date: "2021-09-17" 
 description: "Semana donde aprendí qué es mala práctica hacer git merge de rama a rama y es buena práctica hacer git merge solo a master :)"
 ---
