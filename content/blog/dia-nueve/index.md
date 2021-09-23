@@ -1,7 +1,7 @@
 ---
 title: Día Nueve
 date: "2021-09-22" 
-description: ""
+description: "Hoy agregue una sección de ¿Qué aprendí hoy?"
 ---
 <!-- date: año-mes-día -->
 
