@@ -7,7 +7,6 @@ description: "Apuntes sobre de Git & Github"
 
 <img src="./images/1.jpeg" alt="Git learning" style="border-radius:10px; margin:30px 0;">
 
-
 ### ¿Qué es Git?
 
 - Es un sistema que guarda los cambios realizados a un archivo de manera atómica.
@@ -50,3 +49,4 @@ Con el comando **git rm --cached nombre_del_archivo** y dar *Enter* al interior 
 <img src="./images/6.png">
 </details>
 
+holi :)
