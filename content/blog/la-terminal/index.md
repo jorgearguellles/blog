@@ -119,7 +119,7 @@ El B solo se va ejecutar si el A se ejecuta exitosamente, y el C solo se va ejec
 
 #### 6. Manejo de permisos
 
-##### Tipos de archivos
+**Tipos de archivos**
 | Atributo | Tipo de archivo | 
 | :-------- | :------- |
 | `-` | `Un archivo normal` |
@@ -132,7 +132,56 @@ El B solo se va ejecutar si el A se ejecuta exitosamente, y el C solo se va ejec
 <img src="./images/7.png" alt="Standars Input, Output & Error" style="border-radius:10px; margin:30px 0;">
 <img src="./images/8.png" alt="Standars Input, Output & Error" style="border-radius:10px; margin:30px 0;">
 
+- **chmod _#OctalDueño_  _#OctalGrupo_  _#OctalMundo_ _nombre_archivo_:** Cambiar los permisos de un archivo.
+  - **chmod 755 miTexto.txt**
+- **chmod u-r _nombre_archivo_** Modo simbolico. Quitar el permiso de lectura(r) en la categoria de Usuario.
+- **chmod u-x,go=w _nombre_archivo_** Modo simbolico. Al Usiario quitarle el permiso de execución(u-x), al Grupo y Otros ponerle el permiso de escritura (go=w). Esta manera sobre escribe los permisos.
+- **whoami:** Comando que me muestra en qué perfil estoy actualmente
+- **id:** Muestra el uid, losgrupos donde pertenece nuestro usuario
+- **su:** Comando para cambiar de usuario. El **usuario root** tiene el control absoluto de todo lo que ocurre en el sistema, accediendo a todas las funciones y configuraciones.
+- **passwd:** Comando para cambiar la contraseña de nuestro actual usuario
 
+
+#### 7. Variables de entorno
+
+- **printenv:** Comando qué pinta en pantalla una lista de las variables de entorno.
+- **echo _$Nombre_variable_de_entorno_:** Comando para mostrar una determinada variable de entorno.
+  - **echo $HOME** -> _/home/jorgearias_
+- **ls -la:** En el archivo _.zshrc_ esta la configuración de ZSH. Este se modifica para editar variables de entorno.
+
+#### 8. Links Simbolicos
+Son accesos directos desde la terminal hacia el directorio qué indiquemos.
+- **ln -s  Document/Platzi/Courses:** Comando qué cre un link simbolico desde donde estoy hasta el directorio Courses
+
+#### 9. Comandos de busqueda
+Nos ayudan a encontrar directorios o archivos dependiendo de su extención, su nombre o donde se encuentran ubicados.
+
+- **which _comando_:** Comando de busqueda qué encuentra la ruta de nuestros binarios.
+  - **which code** -> _/usr/bin/code/_
+- **find:** Permite encontra un archivo. Lo primero que le ponemos la ruta desde donde inciai a buscar dicho archivo.
+  - **Banderas básicas:**
+    - **-name:** Realiza una búsqueda por nombre de archivo.
+      - **find ./ -name file:** Encuentra todos los archivos con nombre file
+      - **find ./ -name \*.txt:** Encuentra todos los archivos con extención _-txt_
+    - **-iname:** Realiza una búsqueda por nombre de archivo sin tomar en cuenta las mayúsculas o minúsculas.
+    - **-type:** Realiza una búsqueda por tipo de archivo, f(files) y d(directories) que son los más comunes.
+      - **find -type ./ -type f:** f de _files_ es para indicarle qué solos encuentre archivos
+      - **find -type ./ -type d:** d de _directories_ es para indicarle qué solos encuentre directorios
+    - **-size:** Realiza una búsqueda por el tamaño de archivo y/o directorio.
+      - **find -size ./ 20M:** Comando para encontrar archivos de 20 MegaBytes
+  - **Banderas de tiempo⏰**
+    - **-mmin:** Búsqueda por tiempo en minutos.
+    - **-mtime:** Búsqueda por tiempo en días.
+  - **Más banderas👀**
+    - **-maxdepth:** Después de está bandera se pone el número de niveles de profundidad en los que queremos realizar la búsqueda
+    - **-empty:** Realiza una búsqueda de archivos y/o directorios vacíos.
+    - **-perm:** Búsqueda de archivos por permisos.
+    - **-not:** Retorna los resultados que no coinciden con la búsqueda.
+    - **-delete:** Está bandera se coloca al final del comando, eliminara los resultados de la busqueda(⚠️Hay que tener mucho cuidado al usarla).
+
+#### 10. Su majestad: Grep
+
+Grep nos permite encontrar coincidencias de una busqueda dentro de un archivo de texto.
 
 
 
