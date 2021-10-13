@@ -183,7 +183,13 @@ Nos ayudan a encontrar directorios o archivos dependiendo de su extención, su n
 
 Grep nos permite encontrar coincidencias de una busqueda dentro de un archivo de texto.
 
+#### 11. Comandos de Red
 
-
+- **ifconfig:** Muestra información de nuestra red.
+- **ping:** Muestra is una página esta activa o no.
+- **curl:** Trae un archivo de texto a traves de la red.
+- **wget:** Trae de la web un archivo directo a nuestra computadora. Tipo instalación de algún archivo.
+- **traceroute:**  Cuando visitamos un sitio, el comando nos dice todas las computadoreas qué intervienen en mi caminio para llegar a un url.
+- **netstat -i:** Muestra los dispositivos de red.
 
 
