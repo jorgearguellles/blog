@@ -25,6 +25,7 @@ description: "Apuntes sobre de Git & Github"
   - Muestra la rama en la que estamos
   - Muestra si hay o no _commits_
   - Muestra archivos modificados qué no estamos rastreando / untraked
+- **git commit am "Mensaje descriptibo del commit:"** Básicamente, **_git add y git commit_** al mismo tiempo. Solo funciona con archivos donde ya he trabajado y previamente he realizado un **_git add y git commit._**
 - **git add:** Comando qué añade un archivo y sus cambios en el **_staging_** para poder ser rastreados y posteriromente enviados al repositorio remoto.
   - **git add nombre_del_archivo** añade solo el archivo qué le indiquemos
   - **git add .** añade todos los archivos que hemos odificado
@@ -84,5 +85,10 @@ Las ramas son la forma de hacer cambios en nuestro proyecto sin afectar el flujo
 
 La cabecera o HEAD representan la rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal.
 
-- **git branch nombre_rama:**
-- **git checkout -b nombre_rama:**
+- **git branch:** Comando para ver una lista de todas las ramas del repositorio local.
+  - **git branch nombre_rama:** Comando para crear una rama partiendo desde la rama donde estoy.
+- **git checkout nombre_rama:** Comando para moverme hacia la rama indicada.
+- **git checkout -b nombre_rama:** Básicamente, es hacer **_git branch y git checkout_** al mismo tiempo.
+- **git merge nombre_rama_a_unir:** Comando que crear un nuevo commit con la combinación de cambios de la rama indicada hacia la rama donde estoy. Nota: Recuerda que al ejecutar el comando git checkout para cambiar de rama o commit puedes perder el trabajo que no hayas guardado. Guarda tus cambios antes de hacer git checkout.
+
+
