@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Jorge Arias Argüelles`,
+    title: `Blog.Arg`,
     author: {
       name: `Jorge Arias Argüelles`,
-      summary: `quien vive en Colombia y cree en la ontología del lenguaje y en la colonización de los bits.`,
+      summary: ``,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
