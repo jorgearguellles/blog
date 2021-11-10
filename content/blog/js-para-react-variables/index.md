@@ -7,12 +7,12 @@ description: "Repaso sobre los conceptos fundamentales de JavaScript para trabaj
 
 Contenido de este post:
 
-- Variables en JS: Var, let y const
-- Arrow functions
-- Export e import
-- Clases
+1. Variables en JS: Var, let y const
+2. Arrow functions
+3. Export e import
+4. Clases
 
-# Variables
+1. Variables
 
 ## ¿Qué es una Variable en JavaScript?
 En JavaScript las variables son un **hilo nombrado qué vinculan** datos o información con un fragmento de memoria. Las variables pueden ser declaradas, asignadas o creadas y así mismo serán sus formas de escribirlas: 
