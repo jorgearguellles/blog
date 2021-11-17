@@ -109,6 +109,165 @@ const {a,b, ...restObj } = obj; //Destructuración para obtener el valor asociad
 ```
 
 # 3. Métodos: map, filter, reduce
-...
+
+## filter
+**Filter** toma los valores de un arreglo base y devuelve un nuevo arreglo solo con los elementos que evaluen a **_true_**
+
+- Filter retorna un nuevo arreglo con la misma o menor longitud qué el arreglo base.
+- El nuevo arreglo solo contiene los elementos del arreglo base que evaluen **_true._**
+- Filter va elemento por elemento del arreglo verificando qué se cumpla la condición expresada.
+- 
+
+```js
+const arr = [0,1,2,3,4];
+
+const r = arr.filter( el => el > 2); 
+console.log(r); // [3,4]
+
+const r = arr.filter( el => el < 2); 
+console.log(r); // [0,1]
+```
+
+EL metodo Filter puede recibir otro parametro:
+```js
+const arr = [5,1,2,3,4];
+
+const r = arr.filter( (el, i) => {
+  console.log("Indice:",i);
+  return el > 2;
+}); 
+console.log(r);
+
+```
+## map
+
+**map** toma todos los elementos que se encuentra dentro de un arreglo y les aplica una función, finalmente devuelve un arreglo de la misma longitud pero con una funcion aplicada a cada uno de los elementos.
+
+```js
+const arr = [5,1,2,3,4];
+
+const mapped = arr.map( el => el * 2);
+console.log(mapped); // [10,2,3,6,8]
+
+const users = [
+  { id: 1, name: "Jorge"},
+  { id: 2, name: "Juan"},
+  { id: 3, name: "Javier"},
+  { id: 4, name: "Julian"},
+  { id: 5, name: "Jordan"},
+];
+
+const usersMapped = users.map( user => `
+  <h1>${user.name}</h1>
+  <p>${user.id}</p>
+  `);
+console.log(usersMapped); 
+```
+## Redece
+
+**reduce** Toma todos los elementos de un arreglo y retorna lo que queremos en un elemento: Un arreglo, Un Número
+
+```js
+
+const arr = [5,1,2,3,4];
+const arrNeg = [-5,-1,-2,-3,-4];
+const users = [
+  { id: 1, name: "Jorge"},
+  { id: 2, name: "Juan"},
+  { id: 3, name: "Javier"},
+  { id: 4, name: "Julian"},
+  { id: 5, name: "Jordan"},
+];
+
+// const r1 = arr.reduce(Función accumuladora, Valor inicial del acumulador);
+const r1 = arr.reduce((accu, el)=> accu + el, 0);
+console.log(r1); // 15
+
+const getMax = (a,b) => Math.max(a,b);
+const r2 = arr.reduce(getMax, 0);
+console.log(r2); // 5
+
+const getMax = (a,b) => Math.max(a,b);
+const r3 = arrNeg.reduce(getMax);
+console.log(r3); // -1
+
+const r4 = users.reduce((accu, el) => 
+  `${accu === '' ? '' : `${accu}, `}${el.name}`, '' );
+console.log(r4); // 
+```
 
 # 4. fetch API
+
+Fecth API es una funcionalidad implementada en JavaScript, especificamente en el explorador (No corre en Node.js) qué permite obtener datos desde una url mediante los métodos HTTP.
+
+Se necesitasn dos archivos: 
+- index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="./index.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  ...
+</body>
+</html>
+```
+- index.js
+```js
+const url = 'https://jsonplaceholder.typicode.com/users';
+
+//  Así pedimos data de una API para poderla consumir =================
+// fetch( url, objeto para configurar la petición. OPCIONAL);
+fetch(url)
+  // .then((response) => console.log(response))
+  // .then((response) => response.text()) // response.text() en el mismo then, permite parciarla a String
+  .then((response) => response.json()) // response.json() en el mismo then, permite parciarla y trabajarla
+  .then( data => console.log(data)) 
+```
+
+```js
+
+//  Así pedimos enviar datos =================
+const url = 'https://jsonplaceholder.typicode.com/users';
+
+fetch(url,{
+  method: 'POST', // 'PATCH','PUT','GET','DELETE'
+  headers: {
+    'Content-Type': 'application/json', // Así le indicamos al servidor que enviaremos datos tipo JSON
+    'Authorization': 'Acadebieradeaparecerun token deautorización' // Así indicamos que hemos iniciado sesión, API_Key
+  },
+  body: JSON.stringify({ // Body contiene los datos que queremos enviarle al servidor. Debemos usar JSON.stringify()
+    name: "Jorge",
+    website: "jorgejogrewebsite"
+  }) 
+})
+  .then((response) => response.json()) // response.json() en el mismo then, permite parciarla y trabajarla
+  .then( data => console.log(data)) 
+```
+
+```js
+
+// Usando async y await ==================================
+const url = 'https://jsonplaceholder.typicode.com/users';
+
+const fn = async () => {
+  const response = await fetch(url,{  // Resplasa: .then((response) => response.json())
+    method: 'POST', 
+    headers: {
+      'Content-Type': 'application/json', 
+      'Authorization': 'Acadebieradeaparecerun token deautorización' 
+    },
+    body: JSON.stringify({ 
+      name: "Jorge",
+      website: "jorgejogrewebsite"
+    }) 
+  })
+  const data = await response.json(); // Resplasa: .then( data => console.log(data)) 
+  console.log(data);
+}
+```
