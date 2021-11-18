@@ -52,6 +52,3 @@ Al ejecutar el comando se descarga todo el paquete y finalmente nos indica unos 
     - **package-log.js** Contiene las dependencia que nosotros hemos instalado par el proyecto, cada dependencia con su versión y url. De esta manera cuando despelguemos la app a producción nos aseguramos de que instale las dependencias en la url indicada con la versión indicada y pueda funcionar.
     - **package.js** Contiene el nombre del proyecto, las dependencias instaladas de desarollo y de proudcción, si el repositoro es privado o publico, los cripts que se ejecutaran, configuración para el Linter.
 
-## 3. Introducción a JSX, como funciona en react?
-
-
