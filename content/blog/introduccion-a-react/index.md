@@ -25,7 +25,7 @@ Este comando es importante porque así nos aseguramos de trabajar con la última
 
 Al ejecutar el comando se descarga todo el paquete y finalmente nos indica unos comando que podriamos utilizar.
 
-![comandos despues de instalar create-react-app](./img/1.png "comandos despues de instalar create-react-app")
+![comandos despues de instalar create-react-app](./img/1.png)
 
 - lll
 - lll
