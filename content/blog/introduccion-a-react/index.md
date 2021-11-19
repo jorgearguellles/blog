@@ -160,6 +160,15 @@ export default App;
 
 Para Montar componentes se debe agregar la función constructura, que va localizada entre la Clase y el método render().
 
+- El método de **componentDidMount(){};**
+    - No recibe ningun argumento
+    - Se utiliza cuando tenemos que llamar el método **setState()** para actualizar el estado de nuestro componente.
+    - Este método lo tenemos que utilizar si queremos evaluar algo de nuestro DOM para ver si queremos mostrar agçun modal o hacer llamadas AJAX para traer datos de una API.
+    - Order de ejecución:
+        - Método constructor: Se utiliza para establecer propiedads del estado por defecto.
+        - Método render: 
+        - Método componentDidMount: Se utiliza para actualizar el estado luego de haber realizado un reder()
+
 ```js
 import { Component } from react;
 
@@ -168,6 +177,10 @@ class Button extends Component{
     constructor(props){
         super(props) // Hace referencia al componente del cual estamos extendiendo.
         console.log("Constructor:", props)
+    }
+
+    componentDidMount(){
+        console.log("Component Did Mount :)");
     }
 
     render(){
@@ -205,4 +218,179 @@ class App extends Component {
 }
 
 export default App; 
+```
+
+### 5.2 Actualizando componentes
+
+- El método de **componentDidMount(){};**
+    - Recibe dos argumentos:
+        - La propiedad **prevProps**
+        - La propiedad **prevState**
+    - Este métdo no se ejecuta la primera vez que se monta un componente
+    - Solo se ejecuta cuando el componente cambia, es decir, cuando se llama el método render() a traves del **setState()**
+
+```js
+import { Component } from react;
+
+class Button extends Component{
+
+    constructor(props){
+        super(props) // Hace referencia al componente del cual estamos extendiendo.
+        console.log("Constructor:", props)
+    }
+
+    componentDidMount(){
+        console.log("Component Did Mount :)");
+    }
+
+    componentDidUpdate(prevProps, prevState){
+        console.log("Component Did Update :))", "Props previas:" ,prevProps, "Estado previo:",prevState);
+        
+    }
+
+    render(){
+        console.log("Ejecutando método render de Boton")
+        return(
+            <button 
+                onClick={()=> this.setState({ props: 1})}}
+            >
+                Enviar desde boton
+            </button>
+        )
+    }
+}
+
+
+class App extends Component { 
+    
+    state = {
+        valor: 1
+    }
+
+    render() { 
+        return ( 
+            <div>
+                <p>Hola Mundo</p>
+                <Button />
+                <button 
+                    clasName={`${this.state.valor}`}
+                    onClick={()=> this.setState({ valor: 2 })}
+                >
+                    Enviar desde App
+                </button>
+            </div>
+        )
+    }
+}
+
+export default App; 
+```
+
+### 5.3 Desmontando componentes
+
+- El método de **componentWillUnmount(){};**
+    - No recibe ningún argumento
+
+```js
+import { Component } from react;
+
+class Button extends Component{
+
+    constructor(props){
+        super(props) // Hace referencia al componente del cual estamos extendiendo.
+        console.log("Constructor:", props)
+    }
+
+    componentDidMount(){
+        console.log("Component Did Mount :)");
+    }
+
+    componentDidUpdate(prevProps, prevState){
+        console.log("Component Did Update :))", "Props previas:" ,prevProps, "Estado previo:",prevState);
+    }
+
+    componentWillUnmount(){
+        console.log("Component Will Unmount :)))", "Props al momento de desmontar:",this.props, "Estado al momento de desmontaje:",this.state);
+    }
+
+    render(){
+        console.log("Ejecutando método render de Boton")
+        return(
+            <button 
+                onClick={()=> this.setState({ props: 1})}}
+            >
+                Enviar desde boton
+            </button>
+        )
+    }
+}
+
+
+class App extends Component { 
+    
+    state = {
+        valor: 1
+    }
+
+    render() { 
+        return ( 
+            <div>
+                <p>Hola Mundo</p>
+                {
+                    this.state.valor === 3
+                        ? <Button chanchito="Feliz"/>
+                        : null
+                }
+                <button 
+                    clasName={`${this.state.valor}`}
+                    onClick={()=> this.setState({ valor: 2 })}
+                >
+                    Enviar desde App
+                </button>
+            </div>
+        )
+    }
+}
+
+export default App; 
+```
+
+## 6. ¿Donde gestionamos el estado de nuestra aplicación?
+
+```js
+import { Component } from react;
+
+class Input extends Component {
+    state = {
+        valor: " "
+    }
+
+    handleChange = (value) => {
+        this.setState({ valor: value });
+    }
+
+    render(){
+        return (
+            <input
+                value={this.state.value}
+                onChange={e => this.handleChange(e.target.value)}
+            />
+        )
+    }
+}
+
+class App extends Component {
+    render(){
+        return (
+            <p>
+                Nombre completo:
+                <Input />
+                <Input />
+            </p>
+        )
+    }
+}
+
+export default App;
+
 ```
