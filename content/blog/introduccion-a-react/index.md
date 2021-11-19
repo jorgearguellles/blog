@@ -52,3 +52,157 @@ Al ejecutar el comando se descarga todo el paquete y finalmente nos indica unos 
     - **package-log.js** Contiene las dependencia que nosotros hemos instalado par el proyecto, cada dependencia con su versión y url. De esta manera cuando despelguemos la app a producción nos aseguramos de que instale las dependencias en la url indicada con la versión indicada y pueda funcionar.
     - **package.js** Contiene el nombre del proyecto, las dependencias instaladas de desarollo y de proudcción, si el repositoro es privado o publico, los cripts que se ejecutaran, configuración para el Linter.
 
+## 3. Anatomia de un componente basado en clases
+
+La anatomia de un componente basado en Clase contiene 5 elementos:
+
+```js
+import { Component } from react; // 1. Importante importar Component
+
+class App extends Component { // 2. Definimos nuestra clase que extiende de Component previamente importado
+    render() { // 3. Siempre lleva el método Render
+        return ( // 4. Retornamos contenido JSX
+            <p>Hola Mundo</p>
+        )
+    }
+}
+
+export default App; // 5. Exportar el componente para reutilizarlo.
+```
+
+## 4. El estado en un componente basado en clases
+
+Cuando un componente se crea basado en Clases, se puede acceder directamente al estado. Mientras que si el componente esta creado en base a funcion, para acceder al estado se usn hooks.
+
+Para usar el Estado primero se debe declarar como un objeto literal vacio. El Estado depende de un solo componente, con la opción de pasar a los componentes hijos como propiedades.
+
+El método **Render()** se ejecuta siempre en dos situaciones:
+1. Cuando el estado del componente haya cambiado, es decir, cuando llamamos el método **setState()**
+2. Cuando el método **render()** del componente padre haya sido llamado, entonces el método **render()** de los hijos se llaman automaticamente.
+
+```js
+import { Component } from react;
+
+class App extends Component { 
+    
+    state = {
+        valor: 1
+    }
+
+    render() { 
+        console.log("Mi estado:",this.state);
+        return ( 
+            <div>
+                <p>Hola Mundo</p>
+                <button 
+                    clasName={`${this.state.valor}`}
+                    onClick={()=> this.setState({ valor: 2 })}
+                >
+                    Enviar
+                </button>
+            </div>
+        )
+    }
+}
+
+export default App; 
+```
+
+## 5. Ciclo de vida de los componentes
+
+¿Cuando se renderiza un componente?
+
+
+```js
+import { Component } from react;
+
+class Button extends Component{
+    render(){
+        console.log("Ejecutando método render de Boton")
+        return(
+            <button 
+            >
+                Enviar desde boton
+            </button>
+        )
+    }
+}
+
+
+class App extends Component { 
+    
+    state = {
+        valor: 1
+    }
+
+    render() { 
+        return ( 
+            <div>
+                <p>Hola Mundo</p>
+                <Button />
+                <button 
+                    clasName={`${this.state.valor}`}
+                    onClick={()=> this.setState({ valor: 2 })}
+                >
+                    Enviar desde App
+                </button>
+            </div>
+        )
+    }
+}
+
+export default App; 
+```
+
+![Estructura de carpetas del proyecto](./img/6.png)
+
+### 5.1 Montando componentes
+
+Para Montar componentes se debe agregar la función constructura, que va localizada entre la Clase y el método render().
+
+```js
+import { Component } from react;
+
+class Button extends Component{
+
+    constructor(props){
+        super(props) // Hace referencia al componente del cual estamos extendiendo.
+        console.log("Constructor:", props)
+    }
+
+    render(){
+        console.log("Ejecutando método render de Boton")
+        return(
+            <button 
+            >
+                Enviar desde boton
+            </button>
+        )
+    }
+}
+
+
+class App extends Component { 
+    
+    state = {
+        valor: 1
+    }
+
+    render() { 
+        return ( 
+            <div>
+                <p>Hola Mundo</p>
+                <Button />
+                <button 
+                    clasName={`${this.state.valor}`}
+                    onClick={()=> this.setState({ valor: 2 })}
+                >
+                    Enviar desde App
+                </button>
+            </div>
+        )
+    }
+}
+
+export default App; 
+```
