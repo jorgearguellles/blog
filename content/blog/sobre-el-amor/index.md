@@ -5,9 +5,39 @@ description: "Reflexiones entorno al amor"
 ---
 <!-- date: año-mes-día -->
 
-1. ¿Qué es el Amor?
+## 1. ¿Qué es el Amor?
 
-El Amor es la razón o excusa perfecta para lo que quieras. En el nombre del amor puedes abrazar, matar, violar, robar, violentar, etc. El Amor es la razón o excusa perfecta para lo que se te de la puta gana de hacer. Y esto es profundamente delicado. Por eso me gustaria hablar del amor en comntexto. Ya que el Amor, la Libertad, la Justicia, la Loibertad son estos conceptos universales que lo dicen todo y al mismo tiempo no aclaran nada. Por eso lo valioso de hablar del Amor de pareja, amor de comunidad, amor entorno a ...
+Del tiempo de vida que llevo observando en mi entorno cutural y lo poco que se de la historia de la humanidad, he visto que en el nombre del amor puedes abrazar, te puedes casar, embarazar, matar, violar, robar, conquistar, ser violento, besar, liberar, etc. Es decir, en nuestra cultura el Amor es la razón perfecta para hacer lo que se te de la puta gana de hacer. Y esto es profundamente delicado ya que el Amor, la Libertad, la Justicia y otros más; son estos conceptos universales que usamos para decirlo todo y al mismo tiempo no aclarar nada y en este vacio entre todo lo dicho y lo nada comunicado se germina un escenario perfecto para los malos entendidos. Por eso me gustaría rumiar el amor desde tres puntos de vista.
+1. El amor puesto en acciones.
+2. El amor en tres direcciones.
+3. El amor puesto en contexto. 
+
+> "El amor ha de ponerse más en las acciones qué en las palabras" San Ignacio del loyola.
+
+Desde qué conoci esta frase de San Ingnacio se me instalo y nunca se me olvido. Al inicio no creo haberla entendido, ahora no la entiendo del todo, pero sin duda siempre me resuena y me resuena en la mente y en muchos momentos me ha ayudado a hacerme nuevas preguntas, a cuestionar mi cutura y a cuestionar mis acciones. Me encanta invocarla para acercar la lejana y perfecta idea del Amor a nuestro alcanse humanamente mortal y real. 
+
+> Libro: El arte de amar de Erich Fromm
+
+
+
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+
+
+### 1.2 El amor puesto en acciones
 
 1.2 ¿Qué es el Amor de pareja?
 - Son acciones y decisiones diarias.
