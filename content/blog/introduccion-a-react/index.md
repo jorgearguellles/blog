@@ -357,35 +357,44 @@ export default App;
 
 ## 6. ¿Donde gestionamos el estado de nuestra aplicación?
 
+La sigueinte práctica se concoe como: Levantar el estado de un componente.
+
 ```js
 import { Component } from react;
 
 class Input extends Component {
-    state = {
-        valor: " "
-    }
-
-    handleChange = (value) => {
-        this.setState({ valor: value });
-    }
-
     render(){
         return (
             <input
-                value={this.state.value}
-                onChange={e => this.handleChange(e.target.value)}
+                value={this.props.value}
+                onChange={this.props.onChange}
             />
         )
     }
 }
 
 class App extends Component {
+    state = {
+        nombre: "",
+        apellido: ""
+    };
+
+    updateValues = (props, value) => {
+        this.setState({ [props]: value } ); // Sintaxis de las propiedades dínamicas [props]
+    };
+
     render(){
         return (
             <p>
-                Nombre completo:
-                <Input />
-                <Input />
+                Nombre completo: {`${this.state.nombre} ${this.state.apellido}`}
+                <Input 
+                    value={this.state.nombre}
+                    onChange={e => this.updateValues('nombre', e.target.value)}
+                />
+                <Input 
+                    value={this.state.apellido}
+                    onChange={e => this.updateValues('apellido', e.target.value)}
+                />
             </p>
         )
     }
