@@ -403,3 +403,81 @@ class App extends Component {
 export default App;
 
 ```
+
+
+## 7. Componentes basados en funciones - Hooks
+
+Un componente funcional la podemos definir:
+- Como una constante a la cúal le asignamos una fat arrow function, con la primera latra del nombre en Mayuscula
+```js
+const App = () => {
+    return (
+
+    )
+};
+
+export default App;
+```
+- Como una función tradicional, con la primera latra del nombre en Mayuscula
+```js
+function App(){
+    return(
+
+    )
+};
+
+export default App;
+```
+### Caracteristicas de los componentes basados en funciones
+- Los componentes basados en funciones son funciones puras: Aquellas que nunca cambian el valor de retorno
+- 
+
+Los componentes funcionales tambien reciben propiedades y hay dos maneras de desetructurarla:
+- Versión A:
+```js
+const Micomponente = (props) => {
+    const { miProp } = props;
+
+  return (
+    <div>
+      Nombre: {miProp}
+    </div>
+  )
+}
+
+const App = () => {
+  return(
+    <Micomponente miProp={'Chanchito feliz'} />
+  )
+}
+
+export default App;
+```
+- Versión B:
+```js
+const Micomponente = ({ miProp }) => {
+  return (
+    <div>
+      Nombre: {miProp}
+    </div>
+  )
+}
+
+const App = () => {
+  return(
+    <Micomponente miProp={'Chanchito feliz'} />
+  )
+}
+
+export default App;
+```
+
+## 8. Hooks: useState para manejar el estado
+
+### Reglas de los hooks
+1. Los hooks no se llaman al interior de ciclos ni estructuras de controsl, deven estar al nivel más alto del componente
+2. Solo se llaman en dos partes: Componentes de React.js, Custom hooks / Hoosk personalizados
+3. Cuando creemos un CustomHook, este siempre debe llamarse useNombre_Del_Hook
+
+
+
