@@ -5,6 +5,23 @@ description: "Normandie"
 ---
 <!-- date: año-mes-día -->
 
+| Convinación de vocales en FR | Pronunciación |
+| -- | -- | 
+| oi | ua | 
+| ou | u | 
+| ai | e | 
+| ei | e | 
+| au | o | 
+| eau | o | 
+| œ | e,œ | 
+| œu | e,œ | 
+| eu | e,œ |
+
+
+
+
+
+
 | Platos en FR | Pronunciación | Significado en español |
 | -- | -- | -- |
 | Potage | Potasgh | Sopa |
