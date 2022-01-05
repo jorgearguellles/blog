@@ -1,6 +1,6 @@
 ---
 title: JavaScipt para React.js - Parte 2
-date: "2021-11-10" 
+date: "2021-11-09" 
 description: "Repaso sobre los conceptos fundamentales de JavaScript para trabajar con React.js: Variables"
 ---
 <!-- date: año-mes-día -->

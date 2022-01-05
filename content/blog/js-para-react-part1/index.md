@@ -66,23 +66,25 @@ Actualmente usar var se puede considerar una mala práctica.
 
 Para entender las Arrow function es necesario hablar tambien de las funciones literales y asñi ver sus diferencias.
 
-Las funciones declaradas con la plabra clave **_function_** además de ser funciones querelizan tareas, se pueden guardar en una variable, sirven tambien como una especie de clases. JavaScript al ser un lenguaje multiparadigma, este tambien implementa la herencia basada en prototipos.
+Las funciones declaradas con la plabra clave **_function:_**
+- Son funciones querelizan tareas
+- Se pueden guardar en una variable
+- Sirven tambien como una especie de clases.
+JavaScript al ser un lenguaje multiparadigma, este tambien implementa la herencia basada en prototipos.
 
+### Funciones declaradas
 ```js
 function fn(){
   return "jorge feliz";
 }
 
+console.log(fn()); // Opción A
+
 const r = fn();
-console.log(r);
+console.log(r); // Opción B
 ```
 
-Al hacer una llamada a una función con la palabra reservada _**new**_ pasan cuatro cosas:
-1. Se crea un objeto literal desde la nada jajaj sí, desde la nada. **{}**
-2. El objeto literal empieza a tomar todas las porpiedades que nosotros le asignemos mediante la plabra reservada **this**
-3. Va a ignorar por completo el return que nosotros le indiquemos a la función y lo que va a retornar de manera implicita es **this**
-4. El prototpo de las funciones se le está asignando al valor de _**this**_ que nosotros estamos retornando.
-
+### Llamando una función con la palabra reservada new
 ```js
 function fn(){
   return "jorge feliz";
@@ -91,6 +93,11 @@ function fn(){
 const r = new fn(); //Se crea una instancia de la función, cómo si fuera una clase
 console.log(r);
 ```
+Al hacer una llamada a una función con la palabra reservada _**new**_ pasan cuatro cosas:
+1. Se crea un objeto literal desde la nada jajaj sí, desde la nada. **{}**
+2. El objeto literal empieza a tomar todas las porpiedades que nosotros le asignemos mediante la plabra reservada **this**
+3. Va a ignorar por completo el return que nosotros le indiquemos a la función y lo que va a retornar de manera implicita es **this**
+4. El prototpo de las funciones se le está asignando al valor de _**this**_ que nosotros estamos retornando.
 
 Las funciones creadas con la plabra clave **_function_** tiene un contexto de _**this**_
 
