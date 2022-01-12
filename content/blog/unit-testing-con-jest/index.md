@@ -187,4 +187,13 @@ and a folder call **coverage**, if we want to see deeply, is only run this file 
 ![watcher](./screenshots/folder-coverage.png)
 
 # 2. Using Jest.js with React.js
+
+## 2.1 Project set up 
+## 2.2 Mocks creation
+## 2.3 Provider mock
+## 2.4 Snapshot
+## 2.5 Test Actions
+## 2.6 Test Reducers
+## 2.7 Test fetch requests
+
 # 3. Deploy and CI with Travis
