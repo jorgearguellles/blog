@@ -40,7 +40,7 @@ A test is a prove of work about some code I want to check its predictable functi
 
 # 1. Jest.js Introduction 
 
-## Preparing our work environment
+## 1.1 Preparing our work environment
 1. ```git init``` to create our local repository
 2. ```npm init``` to preparing our ork environment
 3. ```npm install jest --save-dev``` to install Jest.js like a development dependencies
@@ -78,7 +78,7 @@ test("Input have the word: Hello", ()=>{
 When the test is success we can see a image like this:
 ![successful test result](./screenshots/strUnitTesting.png)
 
-## Some unit testing examples
+## 1.2 Some unit testing examples
 
 ```js
 // =========== Str 
@@ -151,9 +151,40 @@ afterAll(()=> console.log("After all test"));
 beforeEach(()=> console.log("Before each test"));
 beforeAll(()=> console.log("Before all test"));
 ```
-## Watch y Coverage
+## 1.3 Describe(), Watch y Coverage
 
+### the function Describe() let us creates a block that groups together several related tests, have the next syntax describe(name, fn) and inside the fn will be each related test.
 
+```js
+describe("testing randomCity() functionality", ()=>{
+  test("Return a random city from a Array", ()=>{
+    expect(typeof(randomCity())).toBe("string")
+  });
+  test("Verify is Cali not exist", ()=>{
+    expect(typeof(randomCity())).not.toMatch(/Cali/);
+  });
+})
+```
+
+### Watch
+In our **package.json** file we can create a script to run a watcher focusing in our tests, the script look like this:
+```js
+"scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+```
+
+When we run ```npm run test:watch``` the watcher run continuously and in the console we can see the next options:
+![watcher](./screenshots/watcher-script.png)
+
+### Coverage
+
+The line command is: ```test --coverage``` and generate a result like this...
+![watcher](./screenshots/coverage.png)
+and a folder call **coverage**, if we want to see deeply, is only run this file in our browser: ```coverage/Icov-report/index.html```
+
+![watcher](./screenshots/folder-coverage.png)
 
 # 2. Using Jest.js with React.js
 # 3. Deploy and CI with Travis
