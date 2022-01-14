@@ -190,8 +190,17 @@ and a folder call **coverage**, if we want to see deeply, is only run this file 
 
 ## 2.1 Project set up 
 ## 2.2 Mocks creation
+Mocks are functions that simulate actions that our app should do
+
 ## 2.3 Provider mock
+- ¿When we use mount or shallow?
+  - We use **mount** when we need all DOM
+  - We use **shallow** just when we need a single part of DOM
+
 ## 2.4 Snapshot
+[Snapshot tests](https://jestjs.io/docs/snapshot-testing) are a very useful tool whenever you want to make sure your UI does not change unexpectedly.
+
+ 
 ## 2.5 Test Actions
 ## 2.6 Test Reducers
 ## 2.7 Test fetch requests

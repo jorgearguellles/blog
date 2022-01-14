@@ -53,5 +53,10 @@ When we say personal finance and financial education we speak about **financial 
   - Expenses is a payment that we choice to do to receive a service or product.
 
 # 2. Assess our personal financial situation
+
+:)
+
+
+
 # 3. ¿How to create our own Financial Plan?
 # 4. Strategies to comply with our Financial Plan
