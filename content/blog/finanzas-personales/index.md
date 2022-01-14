@@ -54,7 +54,30 @@ When we say personal finance and financial education we speak about **financial 
 
 # 2. Assess our personal financial situation
 
+## 2.1 Ways to evaluate our financial situation
+Factors to evaluate our financial situation:
+- Social-economic environment
+- Personality and aptitudes
+- Decision context
+- Knowledge and skills.
+- Behaviors
+![Financial well-being](./screenshots/well-been-factors.png)
+
+Ways to evaluate my financial state:
+- **Subjective:** Related the personal satisfaction level.
+- **Objective:** Related income, outcome, debts and equity
+- **Relative:** related to who and how I compare
+![Financial well-being](./screenshots/ways-to-asseee-personasl-finances.png)
+
+## 2.2 Identify patterns and lessons from our financial past
+
+## 2.3 How to subjectively assess our financial situation
+
 :)
+## 2.4 How to objectively assess our financial situation
+## 2.5 How to relatively assess our financial situation
+
+
 
 
 
