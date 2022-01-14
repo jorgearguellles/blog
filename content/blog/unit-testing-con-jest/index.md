@@ -200,9 +200,18 @@ Mocks are functions that simulate actions that our app should do
 ## 2.4 Snapshot
 [Snapshot tests](https://jestjs.io/docs/snapshot-testing) are a very useful tool whenever you want to make sure your UI does not change unexpectedly.
 
+Remember for use snapshot test we have to transform our component to a JSON. And we use the react-test-renderer package.
+- Command to install it: ```npm install react-test-renderer --save-dev```
+> For those who see this course when react 17 already exists but the project has react 16: ```npm i react-test-renderer@16.14.0 -D```
+- Command to update snapshots changes: ```jest --updateSnapshot```
  
 ## 2.5 Test Actions
+In [Redux](https://redux.js.org/usage/writing-tests), action creators are functions which return plain objects.
+
 ## 2.6 Test Reducers
+
+
 ## 2.7 Test fetch requests
+When we make fetch test, we need better mocks... so we will install it by: ```npm install jest-fetch-mock --save-dev```
 
 # 3. Deploy and CI with Travis
