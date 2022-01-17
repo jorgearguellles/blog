@@ -1,6 +1,6 @@
 ---
 title: Personal finance
-date: "2021-01-11" 
+date: "2022-01-11" 
 description: "Some notes about personal finances :) "
 ---
 <!-- date: año-mes-día -->
@@ -70,16 +70,22 @@ Ways to evaluate my financial state:
 ![Financial well-being](./screenshots/ways-to-asseee-personasl-finances.png)
 
 ## 2.2 Identify patterns and lessons from our financial past
-
 ## 2.3 How to subjectively assess our financial situation
+Is only about what I think or feel what work and no work in my personal finances.
+1. Financial Stress
+    - [Test](https://figuro.la/diagnostico-de-finanzas-personales/)
+    - Identify our bigger financial stress trigger
+2. Mental scripts about money
+    - [Test](https://figuro.la/guiones-mentales-de-dinero/)
+    - Exist 4 mental scripts about money profiles by Klontz:
+        - Avoidant
+        - Worshipers
+        - Status seekers
+        - Vigilantes
+3. 
 
-:)
 ## 2.4 How to objectively assess our financial situation
 ## 2.5 How to relatively assess our financial situation
-
-
-
-
 
 # 3. ¿How to create our own Financial Plan?
 # 4. Strategies to comply with our Financial Plan
