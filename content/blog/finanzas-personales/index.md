@@ -75,6 +75,7 @@ Is only about what I think or feel what work and no work in my personal finances
 1. Financial Stress
     - [Test](https://figuro.la/diagnostico-de-finanzas-personales/)
     - Identify our bigger financial stress trigger
+    ![result](./screenshots/financial-stress.png)
 2. Mental scripts about money
     - [Test](https://figuro.la/guiones-mentales-de-dinero/)
     - Exist 4 mental scripts about money profiles by Klontz:
@@ -82,10 +83,55 @@ Is only about what I think or feel what work and no work in my personal finances
         - Worshipers
         - Status seekers
         - Vigilantes
-3. 
+    Mental scripts about money are responsible for our financial results
+      ![result](./screenshots/mindset.png)
 
 ## 2.4 How to objectively assess our financial situation
+
+There are three fundamental aspect to evaluated:
+1. Income & Outcome
+  - When and how money income
+  - When and how money outcome
+2. Debts
+  - how many I pay monthly
+  - How big debts are?
+  - What cost I accept?
+  - What is the reason I took debt?
+3. Assets
+  - Savings level
+  - Liquidity
+  - Productivity
+
 ## 2.5 How to relatively assess our financial situation
 
+![comparative](./screenshots/comparative.png)
+
 # 3. ¿How to create our own Financial Plan?
+
+## 3.1 ¿Why saving?
+![comparative](./screenshots/why-planning.png)
+
+## 3.2 Analyze our savings and investment strategies
+![comparative](./screenshots/saving.png)
+
+## 3.3 Analyze our assets
+![comparative](./screenshots/assets.png)
+
+## 3.4 Analyze our obligations
+![comparative](./screenshots/obligations.png)
+![comparative](./screenshots/next-year-debs.png)
+
+## 3.5 Analyze our spending
+![comparative](./screenshots/spending.png)
+
+## 3.6 Setting financial goals: beyond the SMART goal
+![comparative](./screenshots/goals.png)
+
+
+## 3.7 Build our dashboard
+## 3.8 Define the plan that we are going to follow
+
+
+
+
 # 4. Strategies to comply with our Financial Plan
