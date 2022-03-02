@@ -99,3 +99,24 @@ When we can use **Should**?
   - The phone should work.
 
 # 3. Questions
+
+## 3.1 It's easy, isn't it?
+
+- Questions tags are more common when we speaking than writing.
+- We use when we expect the listener to agree with us.
+- Intonation is important, we have two intonation ways:
+  - Falling intonation: we use it when we are almost sure
+  - Raising intonation: we use it when we are less sure.
+
+### How we create questions tags?
+
+- If the statement is positive, use a negative tag
+  - example: You like pizza, don't you?
+- If the statement is negative, use a positive tag
+  - example: You don't like brocoli, do you?
+
+## 3.2 Whether and if
+
+We use it to report yes/no questions
+
+## 3.3 Reporting past questions
