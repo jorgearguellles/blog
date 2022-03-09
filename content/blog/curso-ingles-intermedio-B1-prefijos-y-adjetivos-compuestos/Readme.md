@@ -26,7 +26,7 @@ description: "Prefixes and Compound Adjectives notes"
      - Elements are not distinct and viewed as a group: I can see some familiar faces among the crowd
      - Part of a group of people or things: I have worked as a teacher among other things
 
-## Prepositional vs Phrasal Verbs
+## Prepositional Verbs vs Phrasal Verbs
 
 **What is a Phrasal Verb?**
 
