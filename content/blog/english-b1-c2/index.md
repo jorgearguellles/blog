@@ -26,3 +26,9 @@ To be informed of, gain knowledge of.
 
 - I **heard of** a new Spanish restaurant downtown => **(I have learned that there is a new restaurant downtown)**
 - I **heard about** a new Spanish restaurant downtown => **(Someone told me about this new restaurant)**
+
+# Expressing a negative attitude by present continuos
+
+- always + verb-ing
+- constantly + verb-ing
+- forever + verb-ing
