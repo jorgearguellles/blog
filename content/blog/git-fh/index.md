@@ -5,3 +5,11 @@ description: "Notes about Git & Github"
 ---
 
 <!-- date: año-mes-día -->
+
+# Git Fundaments
+
+- **git --version** To know got version we have
+- **git help** To get help by Git
+  - **git help commit** Get help by commit variation
+  - **q** Quiet help view and return
+- ***
