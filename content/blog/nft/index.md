@@ -20,3 +20,11 @@ When a token is fungible, each token have the same value. In the NFT case each t
 - Where can ia create a NFTs:
   ![](./img/nft-creatiom.png)
 - **minteo** term is the process to crate a NFT
+
+# What we need before start?
+
+1. File type
+2. Inter Planetary File System Storage - IPFS Storage
+3. Platform selection
+4. Costs and expects
+5. Wallet preparation
