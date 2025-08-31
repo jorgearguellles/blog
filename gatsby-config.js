@@ -89,7 +89,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  sort: { frontmatter: { date: DESC } }
                 ) {
                   nodes {
                     excerpt
@@ -106,6 +106,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "My Blog RSS Feed",
           },
         ],
       },
