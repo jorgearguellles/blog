@@ -44,9 +44,14 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Blog personal de <strong>{author.name}</strong>.{author?.summary || null}
+          Blog personal de <strong>{author.name}</strong>.
+          {author?.summary || null}
           {` `}Podemos conectar en
-          {` `}<a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>.
+          {` `}
+          <a href={`https://www.linkedin.com/in/jorgeariasarguelles/ || ``}`}>
+            LinkedIn
+          </a>
+          .
         </p>
       )}
     </div>
