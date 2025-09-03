@@ -1,28 +1,29 @@
 ---
-title: Francia 2021 
-date: "2021-10-28" 
+title: Francia 2021
+date: "2021-10-28"
 description: "Viaje a Francia con la Tia Glori para ver a Juancho"
 ---
+
 <!-- date: año-mes-día -->
 
-Desde aquí escribo hoy: 
+Desde aquí escribo hoy:
 <img src="./images/0.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 Mi primo Juancho trabajando :)
 
-****
+---
 
 Foto en el avion hacia Paris
 <img src="./images/15.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 
-Foto siendo sexy en el baño del aeropueto de Paris 
+Foto siendo sexy en el baño del aeropueto de Paris
 <img src="./images/16.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 
-Buenos días hermosa! 
-Te amo y te extraño si ha pasado dos años y con todo el tragin de movernos de un lado a otro sin internet ni el idioma ha sido desafiante. 
+Buenos días hermosa!
+Te amo y te extraño si ha pasado dos años y con todo el tragin de movernos de un lado a otro sin internet ni el idioma ha sido desafiante.
 
- ** Te amo 😍 ***
+** Te amo 😍 \***
 
-La ruta para llegar donde Claire esa coger metro hasta un punto, salir de la estación y buscar una parada de bus...esa salida del metro fue de pelicula...porque literal era bajar unas gradas y abajo habia barriles con fuego, gente vendiendo mazorcas y carne asada en la calle y mucha gente con sacos y capuchas ...tipo peliculas de _newyork y homeless_... afortunadamente dos chicas afros que le preguntamos, una se salio dela estación para guiarnos hasta el paradero de bus...al parecer si era peligroso jajajaj Claire me recomendo decirla ala tia que guardara las joyas, eso icimos. la tía anda desconectada de la realidad, tanto que en la familia hemos hablado de la dínamica de Ana rosa y lo dificil que es ella... la tía ahora comparte esa misma dinámica y es dificil. 
+La ruta para llegar donde Claire esa coger metro hasta un punto, salir de la estación y buscar una parada de bus...esa salida del metro fue de pelicula...porque literal era bajar unas gradas y abajo habia barriles con fuego, gente vendiendo mazorcas y carne asada en la calle y mucha gente con sacos y capuchas ...tipo peliculas de _newyork y homeless_... afortunadamente dos chicas afros que le preguntamos, una se salio dela estación para guiarnos hasta el paradero de bus...al parecer si era peligroso jajajaj Claire me recomendo decirla ala tia que guardara las joyas, eso icimos. la tía anda desconectada de la realidad, tanto que en la familia hemos hablado de la dínamica de Ana rosa y lo dificil que es ella... la tía ahora comparte esa misma dinámica y es dificil.
 
 Cogimos ese bus qué al parecer no pagamos gracias a no tener red ni interned...porque se pagaba con un sms qué nunca salio...
 
@@ -38,9 +39,9 @@ Paso un señor con facciones fuertes fumando cigarrillo como las peliculas, de l
 
 Luego del momento de tensión que solo yo tuve jajaja él hombre confirmo que estabamos bien desde un inicio, y luego le pedi un minuto para llamar a Claire para indicarle que habiamos llegado... Clair bajo y luego hablando con el chico qué poco hablaba ingles y español.... entendio que ya todo ok y se retiro, creo que se interpreto algo rudo de mi parte, me sentí mal con la imagen porque no era la intención... pero fue lo que paso. La importancia de la comunciación más alla del idioma.
 
-** Te amo 😍 ***
+** Te amo 😍 \***
 
-Claire nos recogio... vive en unas unidades súper bellas y su apto es perfecto, es una chimba!!!! Domirmos súper bien, como tiene un balcon una chimba fuma afuear.... la casa esta brutal! 
+Claire nos recogio... vive en unas unidades súper bellas y su apto es perfecto, es una chimba!!!! Domirmos súper bien, como tiene un balcon una chimba fuma afuear.... la casa esta brutal!
 
 Foto con Claire :)
 <img src="./images/14.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
@@ -52,9 +53,9 @@ Tambien fuimos a las Cities que son esas unidades que en las peliculas las muest
 
 Mientras caminaba la ciudad de Claire dije que es una chimba vivir por fuera de Colombia un tiempo, donde se pueda experimentar las 4 estaciones contigo. ❤️ 😍...
 
-La experiencia de por sí es muy enriquecedora, pero yo quiero contigo para que sea mejor, para que sea llenita de amor y de compañía, para que sea familiar, para poder perder el tiempo juntos, tomar un café o simplemente leer en el atardecer, caminar y sentir el aire frío. 
+La experiencia de por sí es muy enriquecedora, pero yo quiero contigo para que sea mejor, para que sea llenita de amor y de compañía, para que sea familiar, para poder perder el tiempo juntos, tomar un café o simplemente leer en el atardecer, caminar y sentir el aire frío.
 
-*** Te amo 😍 **
+**\* Te amo 😍 **
 
 Fotos de la vista del valcon de Claire
 <img src="./images/7.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
@@ -64,7 +65,7 @@ Fotos de la vista del valcon de Claire
 <img src="./images/11.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 <img src="./images/12.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 
-Luego regresamos a coger las maletas y ahí si caminanos despacio, sin afán porque teniamos casi 4 horas de ventaja.  A las 12:30 que fue la hora de nestra salida, la ruta era coger el metro la ruta 7 hasta Pyramids y luego la ruta 14 hasta el parque...cuando salimos de la estación llegamos a un lugar super bonito lleno de trezzas de comida de varias partes del mundo y como estamos en Octubre habian eventos familiares para niño por el tema de las brujitsas...entonces muchas muchas personas caminando en familia o simplemnte almorzan...fue muy lindo con el sol pleno... nos sentamos en la mitad del corredor a descansar por 40 min, yo ley un poco y tomaba el sol mientras la tia miraba todo al rededor...
+Luego regresamos a coger las maletas y ahí si caminanos despacio, sin afán porque teniamos casi 4 horas de ventaja. A las 12:30 que fue la hora de nestra salida, la ruta era coger el metro la ruta 7 hasta Pyramids y luego la ruta 14 hasta el parque...cuando salimos de la estación llegamos a un lugar super bonito lleno de trezzas de comida de varias partes del mundo y como estamos en Octubre habian eventos familiares para niño por el tema de las brujitsas...entonces muchas muchas personas caminando en familia o simplemnte almorzan...fue muy lindo con el sol pleno... nos sentamos en la mitad del corredor a descansar por 40 min, yo ley un poco y tomaba el sol mientras la tia miraba todo al rededor...
 
 <img src="./images/3.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 <img src="./images/5.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
@@ -75,7 +76,7 @@ Alex él amigo frances de juancho, es pareja de Suana la chica Colombia, amiga d
 
 Llegamos al apto de juancho donde vive con theo un chico frances de 23 años. Viven fente a la plnata central de Michelin ...tiene un parqueadero muy lindo.
 
-cenamos pasta con bolognesa y aceitunas y tres tipos de queso y pan frances...muy muy muy rico! :) 
+cenamos pasta con bolognesa y aceitunas y tres tipos de queso y pan frances...muy muy muy rico! :)
 Amo los quesos, las aceitunas y el vino gracias a tí :)
 ** Te amo 😍 **
 
@@ -87,7 +88,3 @@ Foto del atardecer camino donde Juancho
 Foto con Juancho :)
 <img src="./images/2.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
 <img src="./images/4.jpeg" alt="Día Tres" style="border-radius:10px; margin:30px 0;">
-
-
-
-

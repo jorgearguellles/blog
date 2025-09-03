@@ -1,8 +1,9 @@
 ---
 title: Día Trece
-date: "2021-11-22" 
+date: "2021-11-22"
 description: "NOtas al viento"
 ---
+
 <!-- date: año-mes-día -->
 
 Hoy me siento en la biblioteca pública de Mostoles, un pueblo español a las afueras de madrid ciudad, donde me encuentro visitando familia.
@@ -19,13 +20,10 @@ En fin, ahora que estoy solo en la biblioteca me siento más tranquilo y centrad
 
 TRengo treinta y hablano con carito me hizo caier en cuenta qué teroricamente en 20 0 25 años más tenemos la edad para jubilzación, qué solo faltaria tener las semans cotizads necesarias, las cuales creo que no tengo porque recien empece a trabar formalmente a los 26 años... trabje durante un semestre y luego al año fundamos padma house hostal & cafe donde trajamaos 3 años pero nunca se pago... y ahora ya tengo 31 y sigo sin cotizar, algo de esa inforamción me genera angustia de mi futuro y el de mi familia.
 
-Sobre la familia, me gusta mucho la idea de pensar en tener hijos a los 40 años aporximadamente, puede que la mujer por la gestación, el parto y la bienvenida al mundo hacia la cirstura deba estr entre 2 y 4 años con el o la bebe... y luego el hombre puede soltar responsabilidades para acompañar a la criatura despues de los 4años en adelante tipo 10... así se puede resignificar el rol del hombre y la mujer en la cirnazas, la maternidad y la paternidad y la comnfiguracion y roles y dinamizas familiares. 
+Sobre la familia, me gusta mucho la idea de pensar en tener hijos a los 40 años aporximadamente, puede que la mujer por la gestación, el parto y la bienvenida al mundo hacia la cirstura deba estr entre 2 y 4 años con el o la bebe... y luego el hombre puede soltar responsabilidades para acompañar a la criatura despues de los 4años en adelante tipo 10... así se puede resignificar el rol del hombre y la mujer en la cirnazas, la maternidad y la paternidad y la comnfiguracion y roles y dinamizas familiares.
 
+Acabo de ver un libro buenisimo que desde hace mucho tiempo le habia hecho el ojo, esta escrito por Elsa Punset yhabla sobre las emciones, ciranza y realciones sociales, recien metermine el primer capitlo del libro... muy bueno. Me quedo con que:
 
-Acabo de ver un libro buenisimo que desde hace mucho tiempo le habia hecho el ojo, esta escrito por Elsa Punset yhabla sobre las emciones, ciranza y realciones sociales, recien metermine el primer capitlo del libro... muy bueno. Me quedo con que: 
 - vengo de una crianza carnede de amor, respaldo y cercania
-- La autentidcidad es clave para las ralciones humanas. Por esto me cuets mucho socializar, por sin joder, yo veo cosas que los demás no y piuede ser por que veo patrones...y si veo que dicen A y hacen B de uno lo identifico y para mi es una señal de desocnfiznas, confución y alerta de posibkle peligro. Muchas veces prefiero tomar sitancia para poder estar tranquilo y bajar el sistema de defensa. 
-Muy buen contenido.
-
-
-
+- La autentidcidad es clave para las ralciones humanas. Por esto me cuets mucho socializar, por sin joder, yo veo cosas que los demás no y piuede ser por que veo patrones...y si veo que dicen A y hacen B de uno lo identifico y para mi es una señal de desocnfiznas, confución y alerta de posibkle peligro. Muchas veces prefiero tomar sitancia para poder estar tranquilo y bajar el sistema de defensa.
+  Muy buen contenido.
