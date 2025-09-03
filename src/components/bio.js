@@ -48,7 +48,7 @@ const Bio = () => {
           {author?.summary || null}
           {` `}Podemos conectar en
           {` `}
-          <a href={`https://www.linkedin.com/in/jorgeariasarguelles/ || ``}`}>
+          <a href="https://www.linkedin.com/in/jorgeariasarguelles/">
             LinkedIn
           </a>
           .
